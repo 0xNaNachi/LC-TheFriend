@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2624710262
+CRC: 2671695663
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e70d56d18d1b05e3cbe40682f8524bcd
+    Hash: dc99e001059ce0d9673503600077d82b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3c1d20a46a7b3534f851e97bae2ccae0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: e70d56d18d1b05e3cbe40682f8524bcd
+    Hash: dc99e001059ce0d9673503600077d82b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -75,14 +75,13 @@ SerializeReferenceClassIdentifiers:
   ClassName: NavSizeLimit
 Assets:
 - Assets/ModAssets/TheFriend/Models/Lit.mat
-- Assets/ModAssets/TheFriend/Models/Fiendrigged 1.fbx
 - Assets/ModAssets/TheFriend/TheFriendObj.asset
+- Assets/ModAssets/TheFriend/FiendPRE.prefab
 - Assets/ModAssets/TheFriend/Materials/MapDotRed.mat
 - Assets/ModAssets/TheFriend/Bestiary/TheFriendTK.asset
-- Assets/ModAssets/TheFriend/Materials/Fiendmat.mat
 - Assets/ModAssets/TheFriend/Materials/Fiend.png
-- Assets/ModAssets/TheFriend/TheFriend.prefab
 - Assets/ModAssets/TheFriend/Models/Fiendrigged.fbx
+- Assets/ModAssets/TheFriend/Materials/Lit.mat
 - Assets/ModAssets/TheFriend/TheFriendAnimator.controller
 - Assets/ModAssets/TheFriend/Bestiary/TheFriendTN.asset
 Dependencies: []
