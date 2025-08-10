@@ -14,23 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: 'The Friend
 
+    
 
-    Sigurd''s danger level: ?%
+    Sigurd''s danger level: 99%
 
+    
 
-    Scientific name:
-    Enemius Examplus
+    Scientific
+    name: Imperatore Putrescere
 
+    
 
-    The The Friend! The The Friend is real! - Sigurd'
+    There has been nothing like it ever
+    since the dawn of time. It seems to be sentient enough to be able to toy with
+    us.
+
+    It has a black, oily body and apart from the humanoid features and
+    the tendril-like protrusions from his head, his most prominent feature might
+    be the glowing, red face featuring a euphoric expression, almost as if it takes
+    pleasure in robbing the souls of countless employees.
+
+    It is advised to
+    steer clear of it whenever possible. Nothing more can be said about it.'
   terminalEvent: 
   clearPreviousText: 1
   maxCharactersToType: 35
   buyItemIndex: -1
+  buyVehicleIndex: 0
   isConfirmationNode: 0
   buyRerouteToMoon: -1
   displayPlanetInfo: -1
-  lockedInDemo: 0
   shipUnlockableID: -1
   buyUnlockable: 0
   returnFromStorage: 0

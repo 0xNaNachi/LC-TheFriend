@@ -34,7 +34,6 @@ namespace TheFriend {
             InitiateChase,
             HuntingPlayer,
             RageHuntingPlayer,
-            BaitingPlayer,
             SetupDarePlayer,
             ActiveDarePlayer,
             FakeoutPlayer,

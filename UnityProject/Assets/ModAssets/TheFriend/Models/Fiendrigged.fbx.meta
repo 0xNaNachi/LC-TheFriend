@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3a1e2332a3393d644ad5771fda990784
+guid: 703e306618e38ba41842477232a2ae2a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,28 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: _10778_Toilet_V201___Default
-    second: {fileID: 2100000, guid: 40ada7474a36acdb79b9d6d6f33a20b7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: hat-red
-    second: {fileID: 2100000, guid: 2a9c1373e9b0106738b7b04db52d29a4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: hat-white
-    second: {fileID: 2100000, guid: b1148dd72f1af3074bb415e468fdbcaa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: leech-body
-    second: {fileID: 2100000, guid: c4c6e28caeaf3028eaf2abce227ebc96, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: toilet
-    second: {fileID: 2100000, guid: 6d822949991dbdad49a5d6b46606a0e4, type: 2}
+      name: Lit
+    second: {fileID: 2100000, guid: 77a195fe06180304ea5980012af0da7f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
