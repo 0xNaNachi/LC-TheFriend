@@ -35,7 +35,7 @@ namespace TheFriend {
             }
 
             // We load our assets from our asset bundle. Remember to rename them both here and in our Unity project.
-            var TheFriend = thefriendassets.LoadAsset<EnemyType>("TheFriend");
+            var TheFriend = thefriendassets.LoadAsset<EnemyType>("TheFriendObj");
             var TheFriendTN = thefriendassets.LoadAsset<TerminalNode>("TheFriendTN");
             var TheFriendTK = thefriendassets.LoadAsset<TerminalKeyword>("TheFriendTK");
 

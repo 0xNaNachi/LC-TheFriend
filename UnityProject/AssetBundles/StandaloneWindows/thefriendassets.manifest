@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 466407594
+CRC: 2624710262
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a4b707ebc6522a845c9ad16a61ab3445
+    Hash: e70d56d18d1b05e3cbe40682f8524bcd
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3357c706d746a7700780f6852a880eac
+    Hash: 3c1d20a46a7b3534f851e97bae2ccae0
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: a4b707ebc6522a845c9ad16a61ab3445
+    Hash: e70d56d18d1b05e3cbe40682f8524bcd
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -39,13 +39,11 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: d3cecf05b78b173605122a700874719c, type: 3}
+  Script: {fileID: 11500000, guid: 65d3fcb39dd67306e9bb17a603308070, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 04f75356a7e9c978bddc7d568e58a50b, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 65d3fcb39dd67306e9bb17a603308070, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  Script: {fileID: 1655858157, guid: 92f0c080e5309b547859402935eaac4d, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3c36d0a92cbb1f26a39169ef0eae393a, type: 3}
 - Class: 114
@@ -53,7 +51,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 0e80ae96b3eb9177eea5c8f9dadbcda1, type: 3}
 - Class: 114
-  Script: {fileID: 1655858157, guid: 92f0c080e5309b547859402935eaac4d, type: 3}
+  Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d3cecf05b78b173605122a700874719c, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 137
@@ -74,7 +74,9 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Assembly-CSharp
   ClassName: NavSizeLimit
 Assets:
-- Assets/ModAssets/TheFriend/TheFriend.asset
+- Assets/ModAssets/TheFriend/Models/Lit.mat
+- Assets/ModAssets/TheFriend/Models/Fiendrigged 1.fbx
+- Assets/ModAssets/TheFriend/TheFriendObj.asset
 - Assets/ModAssets/TheFriend/Materials/MapDotRed.mat
 - Assets/ModAssets/TheFriend/Bestiary/TheFriendTK.asset
 - Assets/ModAssets/TheFriend/Materials/Fiendmat.mat

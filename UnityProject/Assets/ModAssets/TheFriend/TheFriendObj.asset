@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65d3fcb39dd67306e9bb17a603308070, type: 3}
-  m_Name: TheFriend
+  m_Name: TheFriendObj
   m_EditorClassIdentifier: 
   enemyName: TheFriend
   probabilityCurve:
@@ -84,8 +84,8 @@ MonoBehaviour:
   canBeDestroyed: 0
   destroyOnDeath: 0
   canSeeThroughFog: 0
-  pushPlayerForce: 0
-  pushPlayerDistance: 0
+  pushPlayerForce: 2
+  pushPlayerDistance: 2
   SizeLimit: 0
   timeToPlayAudio: 0
   loudnessMultiplier: 0

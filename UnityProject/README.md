@@ -1,25 +1,35 @@
 
+# The Friend
 
-# Lethal Company Unity Template
-**This is a unity template project for making Custom Assets for Lethal Company.**
+> A Fiend Rework
 
-- This does not include any actual game assets.
-- The scripts included in this are only stubs, they contain no actual game code.
-- Will need to be updated after large game updates.
+This mod delivers a much-needed rework of one of the scariest monsters in *Lethal Company*: **The Fiend**.  
+Now known as **The Friend** (which he definitely isn't), this enemy currently features **8** attacks and **3** roaming patterns with more to come in future updates.
 
-## Setup
+**⚠️ SPOILERS AHEAD ⚠️**
 
-1. Clone this repository from `https://github.com/EvaisaDev/LethalCompanyUnityTemplate.git`
-2. Go into the game's `Managed` directory:
-	- `steamapps\common\Lethal Company\Lethal Company_Data\Managed`
-3. Copy the following files:
-	- `AmazingAssets.TerrainToMesh.dll`
-	- `ClientNetworkTransform.dll`
-	- `DissonanceVoip.dll`
-	- `Facepunch Transport for Netcode for GameObjects.dll`
-	- `Facepunch.Steamworks.Win64.dll`
-	- `Newtonsoft.Json.dll`
-	- `Assembly-CSharp-firstpass.dll`
-4. Move the copied files into `Path/To/This/UnityProject/Assets/Plugins`
-5. Open the project with Unity 2022.3.9f1
-6. You can now use game scripts inside of this unity project, for creating custom assets!
+---
+
+### 1. Hunt  
+The standard hunt. Once The Friend spots you, it will relentlessly hunt you for 15 seconds. If it catches you, it deals **50 damage**. It can be blinded using a flashlight but might respond with even more aggression.
+
+### 2. Rage  
+A more aggressive version of Hunt. The Friend will alter facility lighting, emit disturbing sounds, and potentially trigger other effects in the future. Rage activates either when you pull the apparatus within its range or when it initiates a hunt at maximum aggression.
+
+### 3. Dare  
+The Friend appears suddenly behind the player, threatening to kill them unless they complete a challenging task. If the player succeeds, The Friend retreats—at least for now.
+
+### 4. Fakeout  
+The Friend charges at the player as if to attack, then suddenly vanishes as if losing interest. Moments later, it reappears at a different location nearby, ready to initiate a hunt.
+
+### 5. Isolate  
+This attack attempts to separate one player from the group by muting all of their sounds, leaving only The Friend’s voice audible.
+
+### 6. Phantom  
+When victims are grouped together, The Friend spawns harmless clones in all but one direction, creating confusion and increasing the odds of capturing at least one innocent employee soul.
+
+### 7. Lock  
+The Friend initiates a slow hunt while locking all doors across the map. Doors are unlocked once the hunt ends—because even monsters have standards.
+
+### 8. Fake Voice  
+Upon spotting a victim, The Friend spawns a harmless clone near another player. It then mimics the voices of both targets, attempting to lure them into a trap.
