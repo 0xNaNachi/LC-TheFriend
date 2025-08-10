@@ -28,6 +28,9 @@ namespace TheFriend {
         enum State
         {
             SearchingForPlayer,
+            RoamingSilent,
+            RoamingScary,
+            RoamingObvious,
             InitiateChase,
             HuntingPlayer,
             RageHuntingPlayer,
