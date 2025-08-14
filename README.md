@@ -4,7 +4,7 @@
 > A Fiend Rework
 
 This mod delivers a much-needed rework of one of the scariest monsters in *Lethal Company*: **The Fiend**.  
-Now known as **The Friend** (which he definitely isn't), this enemy currently features **8** attacks and **3** roaming patterns with more to come in future updates.
+Now known as **The Friend** (which he definitely isn't), this enemy currently features **6** attacks and **3** roaming patterns with more to come in future updates.
 
 **⚠️ SPOILERS AHEAD ⚠️**
 
@@ -25,11 +25,30 @@ The Friend charges at the player as if to attack, then suddenly vanishes as if l
 ### 5. Isolate  
 This attack attempts to separate one player from the group by muting all of their sounds, leaving only The Friend’s voice audible.
 
-### 6. Phantom  
+### 6. Phantom (WIP) 
 When victims are grouped together, The Friend spawns harmless clones in all but one direction, creating confusion and increasing the odds of capturing at least one innocent employee soul.
 
 ### 7. Lock  
 The Friend initiates a slow hunt while locking all doors across the map. Doors are unlocked once the hunt ends—because even monsters have standards.
 
-### 8. Fake Voice  
+### 8. Fake Voice (WIP)
 Upon spotting a victim, The Friend spawns a harmless clone near another player. It then mimics the voices of both targets, attempting to lure them into a trap.
+
+---
+
+## Authors
+
+### [@NanachiiXD](https://www.youtube.com/@NanachiiXD)
+
+### [@HadrianDev](https://twitter.com/HadrianDev)
+
+---
+
+# Support
+
+### Support [Hadrian](https://hadriandev.itch.io/)\ by playing his games on his itch.io page!
+
+--- 
+# Help
+
+### For help/bug reports regarding the mod, please send it to the "The Friend" Thread on the [Lethal Company Modding Discord](https://discord.com/invite/lcmod)

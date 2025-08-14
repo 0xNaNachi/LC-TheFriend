@@ -23,6 +23,8 @@ namespace TheFriend.Configuration {
         public ConfigEntry<float> configMiscVolume;
         public ConfigEntry<int> configScreenshakeStrength;
         public ConfigEntry<float> configColorGradingStrength;
+        public ConfigEntry<int> configHuntSpeed;
+        public ConfigEntry<int> configRageHuntSpeed;
         public PluginConfig(ConfigFile Config)
         {
             configWeight = Config.Bind("General", "Spawn Weight", 5, "Chance of the Friend to spawn inside the facility.");
@@ -45,6 +47,8 @@ namespace TheFriend.Configuration {
 
             configScreenshakeStrength = Config.Bind("Misc", "Screenshake Strength", 2, "Strength of the Friend's Screenshake upon raging. (1 - 3, 0 to disable)");
             configColorGradingStrength = Config.Bind("Misc", "Color Grading Strength", 0.5f, "Strength of the Friend's Color Grading upon pulling the apparatus. (0 - 1)");
+            configHuntSpeed = Config.Bind("Misc", "Hunt Speed", 5, "How fast the fiend should go in a normal hunt.");
+            configRageHuntSpeed = Config.Bind("Misc", "Rage Hunt Speed", 6, "How fast the fiend should go in a rage hunt.");
             ClearUnusedEntries(Config);
         }
 

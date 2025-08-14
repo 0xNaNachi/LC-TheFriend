@@ -81,7 +81,7 @@ MonoBehaviour:
   stunGameDifficultyMultiplier: 1
   canBeStunned: 1
   canDie: 1
-  canBeDestroyed: 0
+  canBeDestroyed: 1
   destroyOnDeath: 0
   canSeeThroughFog: 0
   pushPlayerForce: 2

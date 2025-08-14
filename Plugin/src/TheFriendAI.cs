@@ -3,6 +3,7 @@ using System.Diagnostics;
 using GameNetcodeStuff;
 using Unity.Netcode;
 using UnityEngine;
+using TheFriend.Configuration;
 
 namespace TheFriend {
 
@@ -119,8 +120,24 @@ namespace TheFriend {
                     }
                     StickingInFrontOfPlayer();
                     break;
-
                 case (int)State.HuntingPlayer:
+                    agent.speed = Plugin.BoundConfig.configHuntSpeed.Value;
+                    if (FoundClosestPlayerInRange(25f, 3f)){
+                        LogIfDebugBuild("Start Target Player");
+                        StopSearch(currentSearch);
+                        SwitchToBehaviourClientRpc((int)State.InitiateChase);
+                    }
+                    break;
+
+                case (int)State.RageHuntingPlayer:
+                    agent.speed = Plugin.BoundConfig.configRageHuntSpeed.Value;
+                    if (FoundClosestPlayerInRange(25f, 3f)){
+                        LogIfDebugBuild("Start Target Player");
+                        StopSearch(currentSearch);
+                        SwitchToBehaviourClientRpc((int)State.InitiateChase);
+                    }
+                    break;
+                case (int)State.RoamingObvious:
                     // We don't care about doing anything here
                     break;
                     

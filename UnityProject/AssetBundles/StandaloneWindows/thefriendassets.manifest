@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2671695663
+CRC: 2036981126
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dc99e001059ce0d9673503600077d82b
+    Hash: d318d87bf507918186ea5f5d4a2fa6cc
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3c1d20a46a7b3534f851e97bae2ccae0
+    Hash: 7b10f47201004e27ca374adf0a8f6065
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: dc99e001059ce0d9673503600077d82b
+    Hash: d318d87bf507918186ea5f5d4a2fa6cc
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -31,6 +31,8 @@ ClassTypes:
 - Class: 54
   Script: {instanceID: 0}
 - Class: 65
+  Script: {instanceID: 0}
+- Class: 74
   Script: {instanceID: 0}
 - Class: 82
   Script: {instanceID: 0}
@@ -80,6 +82,8 @@ Assets:
 - Assets/ModAssets/TheFriend/Materials/MapDotRed.mat
 - Assets/ModAssets/TheFriend/Bestiary/TheFriendTK.asset
 - Assets/ModAssets/TheFriend/Materials/Fiend.png
+- Assets/ModAssets/TheFriend/Models/FiendHuntNormal.anim
+- Assets/ModAssets/TheFriend/Models/FiendWalk.anim
 - Assets/ModAssets/TheFriend/Models/Fiendrigged.fbx
 - Assets/ModAssets/TheFriend/Materials/Lit.mat
 - Assets/ModAssets/TheFriend/TheFriendAnimator.controller
